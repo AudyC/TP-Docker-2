@@ -1,0 +1,12 @@
+version: '1'
+
+services:
+python-flask:
+python-requests:
+image: /api-backend
+
+python-flask:
+python-requests:
+image: /api-frontend
+ports:
+- "8000:80"
